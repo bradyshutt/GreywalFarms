@@ -1,0 +1,21 @@
+
+
+
+.gallery {
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+  width: 100%;
+  padding-bottom: 25px;
+}
+
+#myCarousel {
+  width: 100%;
+
+}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    margin: auto;
+    max-height:700px;
+}
+
+
