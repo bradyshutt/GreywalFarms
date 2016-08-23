@@ -6,6 +6,7 @@
 
 body {
   margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+  position: relative;
 }
 
 .header-image {
@@ -13,7 +14,7 @@ body {
   width: 100%;
   text-align: center;
   /*bg img: 1900x500*/
-  background: url('../images/stolen-banner.png') no-repeat center center scroll;
+  background: url('../images/plants-banner.jpg') no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -24,16 +25,27 @@ body {
   padding: 120px 0;
 }
 
+.headline .container {
+
+  color: #EAEAEA;
+
+}
+
 .headline h1 {
   font-size: 130px;
-  background: #fff;
-  background: rgba(255,255,255,0.85);
+  text-shadow: 2px 2px 20px #000,
+               -2px 2px 20px #000,
+               2px -2px 20px #000,
+               -2px -2px 20px #000;
 }
 
 .headline h2 {
   font-size: 77px;
-  background: #fff;
-  background: rgba(255,255,255,0.85);
+  color: #EAEAEA;
+  text-shadow: 2px 2px 20px #000,
+               -2px 2px 20px #000,
+               2px -2px 20px #000,
+               -2px -2px 20px #000;
 }
 
 .featurette-divider {
@@ -68,7 +80,6 @@ body {
 }
 
 footer {
-  margin: 50px 0;
 }
 
 @media(max-width:1200px) {
