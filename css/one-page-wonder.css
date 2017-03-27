@@ -26,9 +26,7 @@ body {
 }
 
 .headline .container {
-
   color: #EAEAEA;
-
 }
 
 .headline h1 {
@@ -46,6 +44,17 @@ body {
                -2px 2px 20px #000,
                2px -2px 20px #000,
                -2px -2px 20px #000;
+}
+
+.headline p {
+  font-size: 22px;
+  color: #EAEAEA;
+  margin: 0;
+  padding: 0;
+  text-shadow: 1px 1px 10px #000,
+               -1px 1px 10px #000,
+               1px -1px 10px #000,
+               -1px -1px 10px #000;
 }
 
 .featurette-divider {
@@ -198,4 +207,11 @@ footer {
     margin-bottom: 10px;
     margin-left: 0;
   }
+}
+
+.hoursTable {
+  margin: auto;
+}
+.hoursTable tr td {
+  padding: 0 5px 0 5px;
 }
